@@ -1,0 +1,36 @@
+.add-task {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+.task {
+  width: 40%;
+  height: 70%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.heading-input {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.task-heading,
+.task-body {
+  display: flex;
+  flex-direction: column;
+}
+.task-heading {
+  margin-bottom: 1.5rem;
+}
+.task-body {
+  flex-grow: 1;
+}
+.body-input {
+  height: 100%;
+  resize: none;
+}

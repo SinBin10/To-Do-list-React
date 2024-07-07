@@ -1,5 +1,11 @@
+import Modal from "../components/Modal";
+
 const Saved_lists = () => {
-  return <h1>Saved_lists</h1>;
+  return (
+    <>
+      <Modal />
+    </>
+  );
 };
 
 export default Saved_lists;
